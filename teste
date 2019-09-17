@@ -12,6 +12,8 @@ tera uma imagem ou texto dizendo que ele
 
 * marcar uma pessoa no artigo(ao digiar @, o input faz uma busca por texto digitado)
 
+* usuario podera dar like ou nao like
+
 ******** gerar o arquivo manifesto    **********
 ******** hospedar no azure como HTTPS **********
 
