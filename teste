@@ -1,0 +1,20 @@
+* exibir post por categoria
+
+* usuario pode comentar o artigo ( precisa ser aprovado pelo adm ?? )
+
+* ao criar um novo artigo, esse artigo 
+tera uma imagem ou texto dizendo que ele
+é novo. após 5 dias da data de postagem, ele ira sumir
+
+* poder favoritar pelo id do navegador
+
+* compartilhar artigo - email, whats, sei la ....
+
+* marcar uma pessoa no artigo(ao digiar @, o input faz uma busca por texto digitado)
+
+******** gerar o arquivo manifesto    **********
+******** hospedar no azure como HTTPS **********
+
+
+* ler depois? ler mais tarde ? é um favorito certo ?
+sim mas isso ele ja vai ter no modo offline. seria uma aba (igual a categoria). mas eu deixaria isso como ultima coisa
