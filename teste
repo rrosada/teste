@@ -42,12 +42,14 @@ https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_oninput
 
 <script>
 function myFunction() {
-  var x = document.getElementById("myInput").value;
-  console.log(x.substring(0, 1));
-  if(x.substring(0, 1) == "@") 
+   var x = document.getElementById("myInput").value;
+  
+  console.log(x.slice(-1));
+      
+  if(x.slice(-1) == "@") 
   {
   	document.getElementById("demo").innerHTML = "You wrote: " + x;
-  }  
+  } 
 }
 </script>
 
