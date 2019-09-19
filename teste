@@ -31,3 +31,29 @@ https://www.styleshout.com/demo/?theme=abstract
 
 funcao input para busca de usuarios
 https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_oninput
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Write something in the text field to trigger a function.</p>
+
+<input type="text" id="myInput" oninput="myFunction()">
+<a href="#"><p id="demo"></p></a>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput").value;
+  console.log(x.substring(0, 1));
+  if(x.substring(0, 1) == "@") 
+  {
+  	document.getElementById("demo").innerHTML = "You wrote: " + x;
+  }  
+}
+</script>
+
+</body>
+</html>
+
+  
+
+
